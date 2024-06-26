@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conversor de temperatura</h1>
+
+    <div id="temp">
+       <p><strong>Primeiro Valor:</strong>
+         <input type="number" name="temp1" id="temp1">
+       </p>
+       
+       <p>Está em:</p>
+       <p>
+       <input type="radio" name="mod1" id="celsius" checked> 
+       <label for="celsius">Célsius</label><br>
+       
+       <input type="radio" name="mod1" id="fahrenheit">
+       <label for="fahrenheit">Fahrenheit</label><br>
+       
+       <input type="radio" name="mod1" id="Kelvin">
+       <label for="Kelvin">Kelvin</label>
+    
+       <p><strong>Vai converter para:</strong></p>
+       <input type="radio" name="mod2" id="celsius2" checked> 
+       <label for="celsius">Célsius</label><br>
+      
+       <input type="radio" name="mod2" id="fahrenheit2">
+       <label for="fahrenheit">Fahrenheit</label><br>
+       
+       <input type="radio" name="mod2" id="Kelvin2">
+       <label for="Kelvin">Kelvin</label>
+       </p>
+       <input type="button" value="Verificar" id="verify" onclick="convert()">  
+    </div>
+
+    <div id="result">
+      <p id="result"><strong>Preencha as informações para converter...</strong></p>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

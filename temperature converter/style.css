@@ -1,0 +1,32 @@
+body{
+    color: white;
+    background-image: url(temp.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font: normal 12pt Arial ;
+}
+
+div#temp{
+    text-align: left;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+div#result{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px black;
+}
